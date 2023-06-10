@@ -14,17 +14,26 @@
             </el-col>
           </el-row>
         </el-card>
+        
       </el-col>
     </el-row>
+    
   </div>
+  
 </template>
 <script>
+//import item from "../components/TodoItem.vue"
+//import HelloWorld from '../components/HelloWorld.vue'
 export default {
   name: 'TodoList',
+  components: {
+    //HelloWorld,
+  },
   data () {
     return {
       todo: '',
-      todos: []
+      todos: [],
+      message: 'je suis trop fort'
     }
   },
   methods: {
